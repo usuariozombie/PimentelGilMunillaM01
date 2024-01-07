@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.vedruna.pimentelgilmunillam02"
+    namespace = "com.vedruna.pimentelgilmunillam01"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.vedruna.pimentelgilmunillam02"
+        applicationId = "com.vedruna.pimentelgilmunillam01"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

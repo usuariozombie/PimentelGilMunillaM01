@@ -96,7 +96,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\edupi\.gradle\cach
 		ADDED from C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:13:9-59
 	android:dataExtractionRules
 		ADDED from C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.vedruna.pimentelgilmunillam02.LoginActivity
+activity#com.vedruna.pimentelgilmunillam01.LoginActivity
 ADDED from C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:15:9-23:20
 	android:exported
 		ADDED from C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:17:13-36
@@ -112,7 +112,7 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
 		ADDED from C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:21:27-74
-activity#com.vedruna.pimentelgilmunillam02.MainActivity
+activity#com.vedruna.pimentelgilmunillam01.MainActivity
 ADDED from C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:24:9-26:20
 	android:name
 		ADDED from C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:24:19-47
@@ -246,7 +246,7 @@ ADDED from [androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3
 		ADDED from [androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-permission#com.vedruna.pimentelgilmunillam02.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.vedruna.pimentelgilmunillam01.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
@@ -256,7 +256,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-uses-permission#com.vedruna.pimentelgilmunillam02.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.vedruna.pimentelgilmunillam01.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:26:22-94

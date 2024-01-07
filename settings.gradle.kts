@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PimentelGilMunillaM02"
+rootProject.name = "PimentelGilMunillaM01"
 include(":app")
  

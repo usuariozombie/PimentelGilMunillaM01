@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.vedruna.pimentelgilmunillam02"
+    package="com.vedruna.pimentelgilmunillam01"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -9,10 +9,10 @@
         android:targetSdkVersion="33" />
 
     <permission
-        android:name="com.vedruna.pimentelgilmunillam02.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.vedruna.pimentelgilmunillam01.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.vedruna.pimentelgilmunillam02.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.vedruna.pimentelgilmunillam01.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -26,9 +26,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.PimentelGilMunillaM02" >
+        android:theme="@style/Theme.PimentelGilMunillaM01" >
         <activity
-            android:name="com.vedruna.pimentelgilmunillam02.LoginActivity"
+            android:name="com.vedruna.pimentelgilmunillam01.LoginActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,7 +36,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.vedruna.pimentelgilmunillam02.MainActivity" >
+        <activity android:name="com.vedruna.pimentelgilmunillam01.MainActivity" >
 
             <!-- otras configuraciones de actividad si las hay -->
         </activity>
@@ -47,7 +47,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.vedruna.pimentelgilmunillam02.androidx-startup"
+            android:authorities="com.vedruna.pimentelgilmunillam01.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

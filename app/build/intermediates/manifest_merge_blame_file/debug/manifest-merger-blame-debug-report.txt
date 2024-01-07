@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.vedruna.pimentelgilmunillam02"
+3    package="com.vedruna.pimentelgilmunillam01"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -10,12 +10,12 @@
 10
 11    <permission
 11-->[androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-12        android:name="com.vedruna.pimentelgilmunillam02.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12        android:name="com.vedruna.pimentelgilmunillam01.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 12-->[androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
 13-->[androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 14
-15    <uses-permission android:name="com.vedruna.pimentelgilmunillam02.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15    <uses-permission android:name="com.vedruna.pimentelgilmunillam01.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 15-->[androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 15-->[androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
@@ -40,11 +40,11 @@
 27        android:supportsRtl="true"
 27-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:12:9-35
 28        android:testOnly="true"
-29        android:theme="@style/Theme.PimentelGilMunillaM02" >
+29        android:theme="@style/Theme.PimentelGilMunillaM01" >
 29-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:13:9-59
 30        <activity
 30-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:15:9-23:20
-31            android:name="com.vedruna.pimentelgilmunillam02.LoginActivity"
+31            android:name="com.vedruna.pimentelgilmunillam01.LoginActivity"
 31-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:16:13-42
 32            android:exported="true" >
 32-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:17:13-36
@@ -59,7 +59,7 @@
 36-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:21:27-74
 37            </intent-filter>
 38        </activity>
-39        <activity android:name="com.vedruna.pimentelgilmunillam02.MainActivity" >
+39        <activity android:name="com.vedruna.pimentelgilmunillam01.MainActivity" >
 39-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:24:9-26:20
 39-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:24:19-47
 40
@@ -77,7 +77,7 @@
 48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edupi\.gradle\caches\transforms-3\1566bfeacefffdbab56e4b0ba642ef61\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 49            android:name="androidx.startup.InitializationProvider"
 49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edupi\.gradle\caches\transforms-3\1566bfeacefffdbab56e4b0ba642ef61\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-50            android:authorities="com.vedruna.pimentelgilmunillam02.androidx-startup"
+50            android:authorities="com.vedruna.pimentelgilmunillam01.androidx-startup"
 50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edupi\.gradle\caches\transforms-3\1566bfeacefffdbab56e4b0ba642ef61\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 51            android:exported="false" >
 51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edupi\.gradle\caches\transforms-3\1566bfeacefffdbab56e4b0ba642ef61\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37

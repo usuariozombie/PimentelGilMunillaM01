@@ -23,10 +23,10 @@
     </array>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">PimentelGilMunillaM02</string>
-    <style name="Base.Theme.PimentelGilMunillaM02" parent="Theme.Material3.DayNight.NoActionBar">
+    <string name="app_name">PimentelGilMunillaM01</string>
+    <style name="Base.Theme.PimentelGilMunillaM01" parent="Theme.Material3.DayNight.NoActionBar">
         
         
     </style>
-    <style name="Theme.PimentelGilMunillaM02" parent="Base.Theme.PimentelGilMunillaM02"/>
+    <style name="Theme.PimentelGilMunillaM01" parent="Base.Theme.PimentelGilMunillaM01"/>
 </resources>

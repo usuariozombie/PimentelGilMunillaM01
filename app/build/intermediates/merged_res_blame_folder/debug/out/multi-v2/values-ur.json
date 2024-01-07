@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.vedruna.pimentelgilmunillam02.app-mergeDebugResources-29:/values-ur/values-ur.xml",
+            "outputFile": "com.vedruna.pimentelgilmunillam01.app-mergeDebugResources-29:/values-ur/values-ur.xml",
             "map": [
                 {
                     "source": "C:\\Users\\edupi\\.gradle\\caches\\transforms-3\\d333ff4b3c3f350dac60fc644a50ba15\\transformed\\core-1.9.0\\res\\values-ur\\values-ur.xml",

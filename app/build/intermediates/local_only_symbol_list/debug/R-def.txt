@@ -31,7 +31,7 @@ layout login_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
-style Base.Theme.PimentelGilMunillaM02
-style Theme.PimentelGilMunillaM02
+style Base.Theme.PimentelGilMunillaM01
+style Theme.PimentelGilMunillaM01
 xml backup_rules
 xml data_extraction_rules

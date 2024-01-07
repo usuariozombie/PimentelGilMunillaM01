@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.vedruna.pimentelgilmunillam02.app-mergeDebugResources-29:/values-uk/values-uk.xml",
+            "outputFile": "com.vedruna.pimentelgilmunillam01.app-mergeDebugResources-29:/values-uk/values-uk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\edupi\\.gradle\\caches\\transforms-3\\3801bb2ee662426e5389f1d5dff07ce2\\transformed\\material-1.10.0\\res\\values-uk\\values-uk.xml",
