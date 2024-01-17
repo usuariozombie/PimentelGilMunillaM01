@@ -7,6 +7,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+
+
+
 public class LoginActivity extends AppCompatActivity {
     private TextView usuario;
     private EditText contraseña;
@@ -25,12 +29,13 @@ public class LoginActivity extends AppCompatActivity {
         String user = usuario.getText().toString();
         String password = contraseña.getText().toString();
         if(user.equals("admin") && password.equals("admin")){
-         respuesta.setText("Usuario y contraseña correcta");
-            Intent intent=new Intent(this,MainActivity.class);
+
+            respuesta.setText("Usuario y contraseña correcta");
+            Intent intent=new Intent(this,NavigationMenu.class);
+            intent.putExtra("usuario",user);
             startActivity(intent);
         }else {
             respuesta.setText("Usuario o contraseña incorrecta");
         }
     }
-
 }

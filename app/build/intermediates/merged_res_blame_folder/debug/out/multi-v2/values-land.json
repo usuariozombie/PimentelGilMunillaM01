@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.vedruna.pimentelgilmunillam01.app-mergeDebugResources-29:/values-land/values-land.xml",
+            "outputFile": "com.vedruna.pimentelgilmunillam01.app-mergeDebugResources-41:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\edupi\\.gradle\\caches\\transforms-3\\3801bb2ee662426e5389f1d5dff07ce2\\transformed\\material-1.10.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\edupi\\.gradle\\caches\\transforms-3\\f833da28e5f947ed6f269d0e4f2fbe52\\transformed\\material-1.11.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,35,40",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
