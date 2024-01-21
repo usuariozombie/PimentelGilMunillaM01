@@ -7,8 +7,8 @@ Este proyecto Android ha evolucionado para incluir un menú de navegación que c
 El proyecto consta de los siguientes archivos principales:
 
 - **`ApiFragment`**: La actividad para consumir una API.
-- **`CRUDInterface`: Es donde se configura la llamada a /products.
-- **`Product`: La clase que representa un producto y su estructura.
+- **`CRUDInterface`**: Es donde se configura la llamada a /products.
+- **`Product`**: La clase que representa un producto y su estructura.
 - **`LoginActivity.java`**: La actividad principal para el inicio de sesión. Maneja la autenticación del usuario.
 - **`NavigationMenu.java`**: La actividad que contiene el menú de navegación y gestiona la transición entre los fragmentos.
 - **`HomeFragment.java`**: Fragmento que representa la pantalla principal de la aplicación.
