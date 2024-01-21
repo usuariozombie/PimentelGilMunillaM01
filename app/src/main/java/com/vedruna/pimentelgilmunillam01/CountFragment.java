@@ -11,13 +11,7 @@ import android.widget.TextView;
 
 
 public class CountFragment extends Fragment {
-
-
     public CountFragment() {}
-
-
-
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

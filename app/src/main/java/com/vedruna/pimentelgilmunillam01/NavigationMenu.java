@@ -16,9 +16,7 @@ public class NavigationMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.navigationmenu_main);
         OnNavigationItemSelectedListener();
-
     }
-
     protected void OnNavigationItemSelectedListener(){
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
         bottomNavigationView.setSelectedItemId(R.id.navigation_home);
@@ -26,13 +24,14 @@ public class NavigationMenu extends AppCompatActivity {
         NavHostFragment navHostFragment = (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.nav_host_fragment);
         NavController navController = navHostFragment.getNavController();
 
-
         bottomNavigationView.setOnItemSelectedListener(item -> {
 
             if (item.getItemId() == R.id.navigation_home) {
                 navController.navigate(R.id.homeFragment);
             } else if (item.getItemId() == R.id.navigation_count) {
                 navController.navigate(R.id.countFragment);
+            }else if (item.getItemId() == R.id.navigation_api) {
+                navController.navigate(R.id.apiFragment);
             } else if (item.getItemId() == R.id.navigation_exit) {
                 navController.navigate(R.id.exitFragment);
                 finish();

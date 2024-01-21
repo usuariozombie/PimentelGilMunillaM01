@@ -24,6 +24,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">PimentelGilMunillaM01</string>
+    <string name="home_image">Home image</string>
+    <string name="welcome_admin">Welcome, admin.</string>
     <style name="Base.Theme.PimentelGilMunillaM01" parent="Theme.Material3.DayNight.NoActionBar">
         
         

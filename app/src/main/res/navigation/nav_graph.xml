@@ -23,6 +23,11 @@
         android:label="fragment_count"
         tools:layout="@layout/fragment_count" />
     <fragment
+        android:id="@+id/apiFragment"
+        android:name="com.vedruna.pimentelgilmunillam01.ApiFragment"
+        android:label="fragment_api"
+        tools:layout="@layout/fragment_api" />
+    <fragment
         android:id="@+id/exitFragment"
         android:name="com.vedruna.pimentelgilmunillam01.ExitFragment"
         android:label="fragment_exit"

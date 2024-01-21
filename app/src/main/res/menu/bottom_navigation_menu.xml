@@ -10,6 +10,10 @@
         android:title="Counter"
         android:icon="@drawable/ic_counter" />
     <item
+        android:id="@+id/navigation_api"
+        android:title="API"
+        android:icon="@drawable/ic_api" />
+    <item
         android:id="@+id/navigation_exit"
         android:title="Exit"
         android:icon="@drawable/ic_exit_to_app" />

@@ -8,155 +8,163 @@
 8        android:minSdkVersion="24"
 9        android:targetSdkVersion="33" />
 10
-11    <permission
-11-->[androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-12        android:name="com.vedruna.pimentelgilmunillam01.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-14
-15    <uses-permission android:name="com.vedruna.pimentelgilmunillam01.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+14        android:name="com.vedruna.pimentelgilmunillam01.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 16
-17    <application
-17-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:5:5-33:19
-18        android:allowBackup="true"
-18-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:6:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:7:9-65
-21        android:debuggable="true"
-22        android:extractNativeLibs="false"
-23        android:fullBackupContent="@xml/backup_rules"
-23-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:8:9-54
-24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:9:9-43
-25        android:label="@string/app_name"
-25-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:10:9-41
-26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:11:9-54
-27        android:supportsRtl="true"
-27-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:12:9-35
-28        android:testOnly="true"
-29        android:theme="@style/Theme.PimentelGilMunillaM01" >
-29-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:13:9-59
-30        <activity
-30-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:15:9-23:20
-31            android:name="com.vedruna.pimentelgilmunillam01.LoginActivity"
-31-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:16:13-42
-32            android:exported="true" >
-32-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:17:13-36
-33            <intent-filter>
-33-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:18:13-22:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:19:17-69
-34-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:19:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:21:17-77
-36-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:21:27-74
-37            </intent-filter>
-38        </activity>
-39        <activity android:name="com.vedruna.pimentelgilmunillam01.NavigationMenu" >
-39-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:24:9-26:20
-39-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:24:19-49
-40
-41            <!-- Otros atributos y configuraciones -->
+17    <uses-permission android:name="com.vedruna.pimentelgilmunillam01.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:6:5-37:19
+20        android:allowBackup="true"
+20-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:7:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.9.0] C:\Users\edupi\.gradle\caches\transforms-3\d333ff4b3c3f350dac60fc644a50ba15\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:8:9-65
+23        android:debuggable="true"
+24        android:enableOnBackInvokedCallback="true"
+24-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:17:9-51
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:9:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:10:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:11:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:12:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:13:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.PimentelGilMunillaM01"
+32-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:14:9-59
+33        android:usesCleartextTraffic="true" >
+33-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:16:9-44
+34        <activity
+34-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:19:9-27:20
+35            android:name="com.vedruna.pimentelgilmunillam01.LoginActivity"
+35-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:20:13-42
+36            android:exported="true" >
+36-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:21:13-36
+37            <intent-filter>
+37-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:22:13-26:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:23:17-69
+38-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:23:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:25:17-77
+40-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:25:27-74
+41            </intent-filter>
 42        </activity>
-43        <activity android:name="com.vedruna.pimentelgilmunillam01.MainActivity" >
-43-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:27:9-29:20
-43-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:27:19-47
+43        <activity android:name="com.vedruna.pimentelgilmunillam01.NavigationMenu" >
+43-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:28:9-30:20
+43-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:28:19-49
 44
-45            <!-- otras configuraciones de actividad si las hay -->
+45            <!-- Otros atributos y configuraciones -->
 46        </activity>
-47
-48        <meta-data
-48-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:30:9-32:57
-49            android:name="preloaded_fonts"
-49-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:31:13-43
-50            android:resource="@array/preloaded_fonts" />
-50-->C:\Users\edupi\Desktop\PimentelGilMunillaM02\app\src\main\AndroidManifest.xml:32:13-54
+47        <activity android:name="com.vedruna.pimentelgilmunillam01.MainActivity" >
+47-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:31:9-33:20
+47-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:31:19-47
+48
+49            <!-- otras configuraciones de actividad si las hay -->
+50        </activity>
 51
-52        <provider
-52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edupi\.gradle\caches\transforms-3\1566bfeacefffdbab56e4b0ba642ef61\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-53            android:name="androidx.startup.InitializationProvider"
-53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edupi\.gradle\caches\transforms-3\1566bfeacefffdbab56e4b0ba642ef61\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-54            android:authorities="com.vedruna.pimentelgilmunillam01.androidx-startup"
-54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edupi\.gradle\caches\transforms-3\1566bfeacefffdbab56e4b0ba642ef61\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-55            android:exported="false" >
-55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edupi\.gradle\caches\transforms-3\1566bfeacefffdbab56e4b0ba642ef61\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-56            <meta-data
-56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edupi\.gradle\caches\transforms-3\1566bfeacefffdbab56e4b0ba642ef61\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edupi\.gradle\caches\transforms-3\1566bfeacefffdbab56e4b0ba642ef61\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-58                android:value="androidx.startup" />
-58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edupi\.gradle\caches\transforms-3\1566bfeacefffdbab56e4b0ba642ef61\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-59            <meta-data
-59-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\edupi\.gradle\caches\transforms-3\bfa238cb483a795673839010fe1de160\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-60-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\edupi\.gradle\caches\transforms-3\bfa238cb483a795673839010fe1de160\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-61                android:value="androidx.startup" />
-61-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\edupi\.gradle\caches\transforms-3\bfa238cb483a795673839010fe1de160\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-62            <meta-data
-62-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-63                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-63-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-64                android:value="androidx.startup" />
-64-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-65        </provider>
-66
-67        <uses-library
-67-->[androidx.window:window:1.0.0] C:\Users\edupi\.gradle\caches\transforms-3\3825020f7eb1e942e4da7f5bdcddcdc1\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-68            android:name="androidx.window.extensions"
-68-->[androidx.window:window:1.0.0] C:\Users\edupi\.gradle\caches\transforms-3\3825020f7eb1e942e4da7f5bdcddcdc1\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-69            android:required="false" />
-69-->[androidx.window:window:1.0.0] C:\Users\edupi\.gradle\caches\transforms-3\3825020f7eb1e942e4da7f5bdcddcdc1\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-70        <uses-library
-70-->[androidx.window:window:1.0.0] C:\Users\edupi\.gradle\caches\transforms-3\3825020f7eb1e942e4da7f5bdcddcdc1\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-71            android:name="androidx.window.sidecar"
-71-->[androidx.window:window:1.0.0] C:\Users\edupi\.gradle\caches\transforms-3\3825020f7eb1e942e4da7f5bdcddcdc1\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-72            android:required="false" />
-72-->[androidx.window:window:1.0.0] C:\Users\edupi\.gradle\caches\transforms-3\3825020f7eb1e942e4da7f5bdcddcdc1\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-73
-74        <receiver
-74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-75            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-76            android:directBootAware="false"
-76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-77            android:enabled="true"
-77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-78            android:exported="true"
-78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-79            android:permission="android.permission.DUMP" >
-79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-80            <intent-filter>
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-81                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-82            </intent-filter>
-83            <intent-filter>
-83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-84                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-85            </intent-filter>
-86            <intent-filter>
-86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-87                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-88            </intent-filter>
-89            <intent-filter>
-89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-90                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-91            </intent-filter>
-92        </receiver>
-93    </application>
-94
-95</manifest>
+52        <meta-data
+52-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:34:9-36:57
+53            android:name="preloaded_fonts"
+53-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:35:13-43
+54            android:resource="@array/preloaded_fonts" />
+54-->C:\Users\edupi\Desktop\PimentelGilMunillaM01\app\src\main\AndroidManifest.xml:36:13-54
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edupi\.gradle\caches\transforms-3\1566bfeacefffdbab56e4b0ba642ef61\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edupi\.gradle\caches\transforms-3\1566bfeacefffdbab56e4b0ba642ef61\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+58            android:authorities="com.vedruna.pimentelgilmunillam01.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edupi\.gradle\caches\transforms-3\1566bfeacefffdbab56e4b0ba642ef61\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edupi\.gradle\caches\transforms-3\1566bfeacefffdbab56e4b0ba642ef61\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edupi\.gradle\caches\transforms-3\1566bfeacefffdbab56e4b0ba642ef61\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edupi\.gradle\caches\transforms-3\1566bfeacefffdbab56e4b0ba642ef61\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\edupi\.gradle\caches\transforms-3\1566bfeacefffdbab56e4b0ba642ef61\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\edupi\.gradle\caches\transforms-3\bfa238cb483a795673839010fe1de160\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\edupi\.gradle\caches\transforms-3\bfa238cb483a795673839010fe1de160\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\edupi\.gradle\caches\transforms-3\bfa238cb483a795673839010fe1de160\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+68                android:value="androidx.startup" />
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+69        </provider>
+70
+71        <uses-library
+71-->[androidx.window:window:1.0.0] C:\Users\edupi\.gradle\caches\transforms-3\3825020f7eb1e942e4da7f5bdcddcdc1\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+72            android:name="androidx.window.extensions"
+72-->[androidx.window:window:1.0.0] C:\Users\edupi\.gradle\caches\transforms-3\3825020f7eb1e942e4da7f5bdcddcdc1\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+73            android:required="false" />
+73-->[androidx.window:window:1.0.0] C:\Users\edupi\.gradle\caches\transforms-3\3825020f7eb1e942e4da7f5bdcddcdc1\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+74        <uses-library
+74-->[androidx.window:window:1.0.0] C:\Users\edupi\.gradle\caches\transforms-3\3825020f7eb1e942e4da7f5bdcddcdc1\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+75            android:name="androidx.window.sidecar"
+75-->[androidx.window:window:1.0.0] C:\Users\edupi\.gradle\caches\transforms-3\3825020f7eb1e942e4da7f5bdcddcdc1\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+76            android:required="false" />
+76-->[androidx.window:window:1.0.0] C:\Users\edupi\.gradle\caches\transforms-3\3825020f7eb1e942e4da7f5bdcddcdc1\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+77
+78        <receiver
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+79            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+80            android:directBootAware="false"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+81            android:enabled="true"
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+82            android:exported="true"
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+83            android:permission="android.permission.DUMP" >
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+85                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+86            </intent-filter>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+88                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+91                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+92            </intent-filter>
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+94                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\edupi\.gradle\caches\transforms-3\4ff7d41c25084dc4efbd069714eeb5b6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+95            </intent-filter>
+96        </receiver>
+97    </application>
+98
+99</manifest>

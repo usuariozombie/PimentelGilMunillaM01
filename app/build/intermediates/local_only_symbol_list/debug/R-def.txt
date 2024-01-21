@@ -9,6 +9,7 @@ color white
 drawable counter
 drawable exit_to_app
 drawable home_account
+drawable ic_api
 drawable ic_counter
 drawable ic_exit_to_app
 drawable ic_home_account
@@ -21,6 +22,7 @@ font poppins_medium
 font poppins_thin
 id action_homeFragment_to_ExitFragment
 id action_homeFragment_to_countFragment
+id apiFragment
 id bottomNavigationView
 id button2
 id button3
@@ -35,6 +37,7 @@ id linearLayout
 id linearLayout2
 id nav_graph
 id nav_host_fragment
+id navigation_api
 id navigation_count
 id navigation_exit
 id navigation_home
@@ -46,6 +49,7 @@ id textView5
 id welcome_image
 id welcome_message
 layout activity_main
+layout fragment_api
 layout fragment_count
 layout fragment_exit
 layout fragment_home
@@ -56,6 +60,8 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
 string app_name
+string home_image
+string welcome_admin
 style Base.Theme.PimentelGilMunillaM01
 style Theme.PimentelGilMunillaM01
 xml backup_rules
